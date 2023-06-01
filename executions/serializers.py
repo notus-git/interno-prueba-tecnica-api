@@ -9,7 +9,7 @@ class ExecutionSerializer(ModelSerializer):
         fields = '__all__'
 
 
-class PredicionSerializer(ModelSerializer):
+class PredictionSerializer(ModelSerializer):
     class Meta:
         model = Prediction
         fields = '__all__'
