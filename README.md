@@ -1,11 +1,19 @@
-# interno-prueba-tecnica-back
-Repositorio para prueba técnica Notus
+# Backend prueba técnica Notus
+Repositorio para prueba técnica Notus.
 
-instalar python
+# Instalación
 
-python -m venv venv
-venv/Scripts/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py seeds
-python manage.py runserver
+Instalar python: https://www.python.org/downloads/
+
+    # Crear y activar virtual environment
+    python -m venv venv
+    venv/Scripts/activate
+
+    # instalar requerimientos
+    pip install -r requirements.txt
+    
+    # correr migraciones
+    python manage.py migrate
+    
+    # iniciar servidor
+    python manage.py runserver
